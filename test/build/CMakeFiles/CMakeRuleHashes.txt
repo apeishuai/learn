@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+f80ca41bf2ba598dd2d793f3c03a81a7 .qt/qml_imports/hello_build.cmake
+5ddd58ff246ab719e9756778439cbd63 CMakeFiles/hello_autogen
+5ddd58ff246ab719e9756778439cbd63 CMakeFiles/hello_qmlimportscan
+48bb0c1e3fadbeb8d30f576c27497581 hello_autogen/timestamp

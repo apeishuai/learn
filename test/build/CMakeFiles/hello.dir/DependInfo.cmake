@@ -9,8 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "hello_autogen/timestamp" "custom" "hello_autogen/deps"
-  "D:/g/pro/qt/tmp/test/build/hello_autogen/mocs_compilation.cpp" "CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj.d"
-  "D:/g/pro/qt/tmp/test/main.cpp" "CMakeFiles/hello.dir/main.cpp.obj" "gcc" "CMakeFiles/hello.dir/main.cpp.obj.d"
+  "D:/g/learn/test/build/hello_autogen/mocs_compilation.cpp" "CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj.d"
+  "D:/g/learn/test/main.cpp" "CMakeFiles/hello.dir/main.cpp.obj" "gcc" "CMakeFiles/hello.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

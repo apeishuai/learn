@@ -1,4 +1,4 @@
-CMakeFiles/hello.dir/main.cpp.obj: D:\g\pro\qt\tmp\test\main.cpp \
+CMakeFiles/hello.dir/main.cpp.obj: D:\g\learn\test\main.cpp \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/QApplication \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qapplication.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -373,15 +373,6 @@ CMakeFiles/hello.dir/main.cpp.obj: D:\g\pro\qt\tmp\test\main.cpp \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qlocale.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qvariant.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qguiapplication_platform.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QThread \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qthread.h \
- D:/softwares/msys64/mingw64/include/c++/14.2.0/future \
- D:/softwares/msys64/mingw64/include/c++/14.2.0/mutex \
- D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/std_mutex.h \
- D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/unique_lock.h \
- D:/softwares/msys64/mingw64/include/c++/14.2.0/condition_variable \
- D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/atomic_futex.h \
- D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/std_thread.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtConcurrent/QtConcurrent \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtConcurrent/QtConcurrentDepends \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QtCore \
@@ -394,6 +385,7 @@ CMakeFiles/hello.dir/main.cpp.obj: D:\g\pro\qt\tmp\test\main.cpp \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/q20map.h \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/memory_resource \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/shared_mutex \
+ D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/std_mutex.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/q20memory.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/q20vector.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/q23functional.h \
@@ -541,6 +533,12 @@ CMakeFiles/hello.dir/main.cpp.obj: D:\g\pro\qt\tmp\test\main.cpp \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qfuture_impl.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qthreadpool.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qthread.h \
+ D:/softwares/msys64/mingw64/include/c++/14.2.0/future \
+ D:/softwares/msys64/mingw64/include/c++/14.2.0/mutex \
+ D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/unique_lock.h \
+ D:/softwares/msys64/mingw64/include/c++/14.2.0/condition_variable \
+ D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/atomic_futex.h \
+ D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/std_thread.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qrunnable.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qexception.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qpromise.h \
@@ -778,6 +776,7 @@ CMakeFiles/hello.dir/main.cpp.obj: D:\g\pro\qt\tmp\test\main.cpp \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qtenvironmentvariables.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qtextboundaryfinder.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qtextstream.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qthread.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qthreadpool.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qthreadstorage.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qtimeline.h \
@@ -852,4 +851,25 @@ CMakeFiles/hello.dir/main.cpp.obj: D:\g\pro\qt\tmp\test\main.cpp \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtConcurrent/qtconcurrenttask.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtConcurrent/qtaskbuilder.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtConcurrent/qtconcurrentthreadengine.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtConcurrent/qtconcurrentversion.h
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtConcurrent/qtconcurrentversion.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/QMainWindow \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qmainwindow.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qwidget.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qaction.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qkeysequence.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qicon.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpalette.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qbrush.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qfont.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qfontmetrics.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qfontinfo.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qsizepolicy.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qtabwidget.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QDebug \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/QLabel \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qlabel.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qframe.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpicture.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qtextdocument.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QTimer \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QRandomGenerator

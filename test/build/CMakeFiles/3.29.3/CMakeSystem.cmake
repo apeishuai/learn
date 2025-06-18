@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Windows")
 set(CMAKE_HOST_SYSTEM_VERSION "10.0.26100")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "AMD64")
 
-include("D:/g/pro/qt/tmp/test/mingw64.toolchain.cmake")
+include("D:/g/learn/test/mingw64.toolchain.cmake")
 
 set(CMAKE_SYSTEM "Windows")
 set(CMAKE_SYSTEM_NAME "Windows")

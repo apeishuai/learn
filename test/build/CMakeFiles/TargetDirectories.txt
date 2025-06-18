@@ -1,6 +1,6 @@
-D:/g/pro/qt/tmp/test/build/CMakeFiles/hello.dir
-D:/g/pro/qt/tmp/test/build/CMakeFiles/hello_qmlimportscan.dir
-D:/g/pro/qt/tmp/test/build/CMakeFiles/edit_cache.dir
-D:/g/pro/qt/tmp/test/build/CMakeFiles/rebuild_cache.dir
-D:/g/pro/qt/tmp/test/build/CMakeFiles/hello_autogen_timestamp_deps.dir
-D:/g/pro/qt/tmp/test/build/CMakeFiles/hello_autogen.dir
+D:/g/learn/test/build/CMakeFiles/hello.dir
+D:/g/learn/test/build/CMakeFiles/hello_qmlimportscan.dir
+D:/g/learn/test/build/CMakeFiles/edit_cache.dir
+D:/g/learn/test/build/CMakeFiles/rebuild_cache.dir
+D:/g/learn/test/build/CMakeFiles/hello_autogen_timestamp_deps.dir
+D:/g/learn/test/build/CMakeFiles/hello_autogen.dir

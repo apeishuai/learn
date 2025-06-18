@@ -52,10 +52,10 @@ RM = D:\qt6.8.2\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\g\pro\qt\tmp\test
+CMAKE_SOURCE_DIR = D:\g\learn\test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\g\pro\qt\tmp\test\build
+CMAKE_BINARY_DIR = D:\g\learn\test\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/hello.dir/depend.make
@@ -71,39 +71,39 @@ include CMakeFiles/hello.dir/flags.make
 hello_autogen/timestamp: D:/qt6.8.2/6.8.2/mingw_64/bin/moc.exe
 hello_autogen/timestamp: D:/qt6.8.2/6.8.2/mingw_64/bin/uic.exe
 hello_autogen/timestamp: CMakeFiles/hello.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\g\pro\qt\tmp\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target hello"
-	D:\qt6.8.2\Tools\CMake_64\bin\cmake.exe -E cmake_autogen D:/g/pro/qt/tmp/test/build/CMakeFiles/hello_autogen.dir/AutogenInfo.json ""
-	D:\qt6.8.2\Tools\CMake_64\bin\cmake.exe -E touch D:/g/pro/qt/tmp/test/build/hello_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\g\learn\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target hello"
+	D:\qt6.8.2\Tools\CMake_64\bin\cmake.exe -E cmake_autogen D:/g/learn/test/build/CMakeFiles/hello_autogen.dir/AutogenInfo.json ""
+	D:\qt6.8.2\Tools\CMake_64\bin\cmake.exe -E touch D:/g/learn/test/build/hello_autogen/timestamp
 
 CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj: CMakeFiles/hello.dir/flags.make
 CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj: CMakeFiles/hello.dir/includes_CXX.rsp
 CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj: hello_autogen/mocs_compilation.cpp
 CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj: CMakeFiles/hello.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\g\pro\qt\tmp\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj"
-	D:\softwares\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\hello.dir\hello_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\hello.dir\hello_autogen\mocs_compilation.cpp.obj -c D:\g\pro\qt\tmp\test\build\hello_autogen\mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\g\learn\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj"
+	D:\softwares\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\hello.dir\hello_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\hello.dir\hello_autogen\mocs_compilation.cpp.obj -c D:\g\learn\test\build\hello_autogen\mocs_compilation.cpp
 
 CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.i"
-	D:\softwares\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\g\pro\qt\tmp\test\build\hello_autogen\mocs_compilation.cpp > CMakeFiles\hello.dir\hello_autogen\mocs_compilation.cpp.i
+	D:\softwares\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\g\learn\test\build\hello_autogen\mocs_compilation.cpp > CMakeFiles\hello.dir\hello_autogen\mocs_compilation.cpp.i
 
 CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.s"
-	D:\softwares\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\g\pro\qt\tmp\test\build\hello_autogen\mocs_compilation.cpp -o CMakeFiles\hello.dir\hello_autogen\mocs_compilation.cpp.s
+	D:\softwares\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\g\learn\test\build\hello_autogen\mocs_compilation.cpp -o CMakeFiles\hello.dir\hello_autogen\mocs_compilation.cpp.s
 
 CMakeFiles/hello.dir/main.cpp.obj: CMakeFiles/hello.dir/flags.make
 CMakeFiles/hello.dir/main.cpp.obj: CMakeFiles/hello.dir/includes_CXX.rsp
-CMakeFiles/hello.dir/main.cpp.obj: D:/g/pro/qt/tmp/test/main.cpp
+CMakeFiles/hello.dir/main.cpp.obj: D:/g/learn/test/main.cpp
 CMakeFiles/hello.dir/main.cpp.obj: CMakeFiles/hello.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\g\pro\qt\tmp\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hello.dir/main.cpp.obj"
-	D:\softwares\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello.dir/main.cpp.obj -MF CMakeFiles\hello.dir\main.cpp.obj.d -o CMakeFiles\hello.dir\main.cpp.obj -c D:\g\pro\qt\tmp\test\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\g\learn\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hello.dir/main.cpp.obj"
+	D:\softwares\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello.dir/main.cpp.obj -MF CMakeFiles\hello.dir\main.cpp.obj.d -o CMakeFiles\hello.dir\main.cpp.obj -c D:\g\learn\test\main.cpp
 
 CMakeFiles/hello.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hello.dir/main.cpp.i"
-	D:\softwares\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\g\pro\qt\tmp\test\main.cpp > CMakeFiles\hello.dir\main.cpp.i
+	D:\softwares\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\g\learn\test\main.cpp > CMakeFiles\hello.dir\main.cpp.i
 
 CMakeFiles/hello.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hello.dir/main.cpp.s"
-	D:\softwares\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\g\pro\qt\tmp\test\main.cpp -o CMakeFiles\hello.dir\main.cpp.s
+	D:\softwares\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\g\learn\test\main.cpp -o CMakeFiles\hello.dir\main.cpp.s
 
 # Object files for target hello
 hello_OBJECTS = \
@@ -131,7 +131,7 @@ hello.exe: D:/qt6.8.2/6.8.2/mingw_64/lib/libQt6Core.a
 hello.exe: CMakeFiles/hello.dir/linkLibs.rsp
 hello.exe: CMakeFiles/hello.dir/objects1.rsp
 hello.exe: CMakeFiles/hello.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\g\pro\qt\tmp\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable hello.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\g\learn\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable hello.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\hello.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -143,6 +143,6 @@ CMakeFiles/hello.dir/clean:
 .PHONY : CMakeFiles/hello.dir/clean
 
 CMakeFiles/hello.dir/depend: hello_autogen/timestamp
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\g\pro\qt\tmp\test D:\g\pro\qt\tmp\test D:\g\pro\qt\tmp\test\build D:\g\pro\qt\tmp\test\build D:\g\pro\qt\tmp\test\build\CMakeFiles\hello.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\g\learn\test D:\g\learn\test D:\g\learn\test\build D:\g\learn\test\build D:\g\learn\test\build\CMakeFiles\hello.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/hello.dir/depend
 

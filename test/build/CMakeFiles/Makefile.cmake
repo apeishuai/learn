@@ -7,12 +7,12 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "D:/g/pro/qt/tmp/test/CMakeLists.txt"
+  "D:/g/learn/test/CMakeLists.txt"
   ".qt/qml_imports/hello_conf.cmake"
   "CMakeFiles/3.29.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.29.3/CMakeRCCompiler.cmake"
   "CMakeFiles/3.29.3/CMakeSystem.cmake"
-  "D:/g/pro/qt/tmp/test/mingw64.toolchain.cmake"
+  "D:/g/learn/test/mingw64.toolchain.cmake"
   "D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6/FindWrapAtomic.cmake"
   "D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake"
   "D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake"

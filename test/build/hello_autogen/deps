@@ -1,11 +1,11 @@
 hello_autogen/timestamp: \
-	D:/g/pro/qt/tmp/test/CMakeLists.txt \
-	D:/g/pro/qt/tmp/test/build/.qt/qml_imports/hello_conf.cmake \
-	D:/g/pro/qt/tmp/test/build/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
-	D:/g/pro/qt/tmp/test/build/CMakeFiles/3.29.3/CMakeRCCompiler.cmake \
-	D:/g/pro/qt/tmp/test/build/CMakeFiles/3.29.3/CMakeSystem.cmake \
-	D:/g/pro/qt/tmp/test/main.cpp \
-	D:/g/pro/qt/tmp/test/mingw64.toolchain.cmake \
+	D:/g/learn/test/CMakeLists.txt \
+	D:/g/learn/test/build/.qt/qml_imports/hello_conf.cmake \
+	D:/g/learn/test/build/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
+	D:/g/learn/test/build/CMakeFiles/3.29.3/CMakeRCCompiler.cmake \
+	D:/g/learn/test/build/CMakeFiles/3.29.3/CMakeSystem.cmake \
+	D:/g/learn/test/main.cpp \
+	D:/g/learn/test/mingw64.toolchain.cmake \
 	D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
 	D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
 	D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake \

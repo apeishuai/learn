@@ -1,0 +1,2 @@
+D:/g/learn/qt/qtconcurrent/imagescaling/build/_CPack_Packages/win64/NSIS/imagescaling-0.1.1-win64/bin/imagescaling.exe
+D:/g/learn/qt/qtconcurrent/imagescaling/build/_CPack_Packages/win64/NSIS/imagescaling-0.1.1-win64/include/downloaddialog.h

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/hello.dir/hello_autogen/EWIEGA46WW/qrc_qml.cpp.obj"
+  "CMakeFiles/hello.dir/hello_autogen/EWIEGA46WW/qrc_qml.cpp.obj.d"
   "CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj.d"
   "CMakeFiles/hello.dir/main.cpp.obj"
@@ -9,6 +11,7 @@ file(REMOVE_RECURSE
   "hello.exe"
   "hello.exe.manifest"
   "hello.pdb"
+  "hello_autogen/EWIEGA46WW/qrc_qml.cpp"
   "hello_autogen/mocs_compilation.cpp"
   "hello_autogen/timestamp"
   "libhello.dll.a"

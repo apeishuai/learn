@@ -1,0 +1,37 @@
+cmake_minimum_required(VERSION 3.16)
+project(imagescaling LANGUAGES CXX)
+
+find_package(Qt6 REQUIRED COMPONENTS Concurrent Core Gui Network Widgets)
+
+qt_standard_project_setup()
+
+qt_add_executable(imagescaling
+    downloaddialog.cpp downloaddialog.h downloaddialog.ui
+    imagescaling.cpp imagescaling.h
+    main.cpp
+)
+
+set_target_properties(imagescaling PROPERTIES
+    WIN32_EXECUTABLE TRUE
+    MACOSX_BUNDLE TRUE
+)
+
+target_link_libraries(imagescaling PRIVATE
+    Qt6::Concurrent
+    Qt6::Core
+    Qt6::Gui
+    Qt6::Network
+    Qt6::Widgets
+)
+
+# install
+set(CMAKE_INSTALL_PREFIX ${PROJECT_SOURCE_DIR})
+install(TARGETS imagescaling DESTINATION bin)
+install(FILES "${PROJECT_SOURCE_DIR}/downloaddialog.h" DESTINATION include)
+
+# cpack
+include (InstallRequiredSystemLibraries) # windows下有用
+set(CPACK_RSC_FILE_LICENSE
+    "${CMAKE_CURRENT_SOURCE_DIR}/License.txt")
+include(Cpack)
+

@@ -167,6 +167,30 @@ hello_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_autogen.dir\build.make CMakeFiles/hello_autogen.dir/build
 .PHONY : hello_autogen/fast
 
+hello_autogen/EWIEGA46WW/qrc_qml.obj: hello_autogen/EWIEGA46WW/qrc_qml.cpp.obj
+.PHONY : hello_autogen/EWIEGA46WW/qrc_qml.obj
+
+# target to build an object file
+hello_autogen/EWIEGA46WW/qrc_qml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/hello_autogen/EWIEGA46WW/qrc_qml.cpp.obj
+.PHONY : hello_autogen/EWIEGA46WW/qrc_qml.cpp.obj
+
+hello_autogen/EWIEGA46WW/qrc_qml.i: hello_autogen/EWIEGA46WW/qrc_qml.cpp.i
+.PHONY : hello_autogen/EWIEGA46WW/qrc_qml.i
+
+# target to preprocess a source file
+hello_autogen/EWIEGA46WW/qrc_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/hello_autogen/EWIEGA46WW/qrc_qml.cpp.i
+.PHONY : hello_autogen/EWIEGA46WW/qrc_qml.cpp.i
+
+hello_autogen/EWIEGA46WW/qrc_qml.s: hello_autogen/EWIEGA46WW/qrc_qml.cpp.s
+.PHONY : hello_autogen/EWIEGA46WW/qrc_qml.s
+
+# target to generate assembly for a file
+hello_autogen/EWIEGA46WW/qrc_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/hello_autogen/EWIEGA46WW/qrc_qml.cpp.s
+.PHONY : hello_autogen/EWIEGA46WW/qrc_qml.cpp.s
+
 hello_autogen/mocs_compilation.obj: hello_autogen/mocs_compilation.cpp.obj
 .PHONY : hello_autogen/mocs_compilation.obj
 
@@ -227,6 +251,9 @@ help:
 	@echo ... hello_autogen_timestamp_deps
 	@echo ... hello_qmlimportscan
 	@echo ... hello
+	@echo ... hello_autogen/EWIEGA46WW/qrc_qml.obj
+	@echo ... hello_autogen/EWIEGA46WW/qrc_qml.i
+	@echo ... hello_autogen/EWIEGA46WW/qrc_qml.s
 	@echo ... hello_autogen/mocs_compilation.obj
 	@echo ... hello_autogen/mocs_compilation.i
 	@echo ... hello_autogen/mocs_compilation.s

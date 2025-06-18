@@ -1,0 +1,9 @@
+D:/g/learn/qt/qtconcurrent/primecounter/build/CMakeFiles/primecounter.dir
+D:/g/learn/qt/qtconcurrent/primecounter/build/CMakeFiles/edit_cache.dir
+D:/g/learn/qt/qtconcurrent/primecounter/build/CMakeFiles/rebuild_cache.dir
+D:/g/learn/qt/qtconcurrent/primecounter/build/CMakeFiles/list_install_components.dir
+D:/g/learn/qt/qtconcurrent/primecounter/build/CMakeFiles/install.dir
+D:/g/learn/qt/qtconcurrent/primecounter/build/CMakeFiles/install/local.dir
+D:/g/learn/qt/qtconcurrent/primecounter/build/CMakeFiles/install/strip.dir
+D:/g/learn/qt/qtconcurrent/primecounter/build/CMakeFiles/primecounter_autogen_timestamp_deps.dir
+D:/g/learn/qt/qtconcurrent/primecounter/build/CMakeFiles/primecounter_autogen.dir

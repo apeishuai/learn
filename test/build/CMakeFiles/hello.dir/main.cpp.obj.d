@@ -373,6 +373,20 @@ CMakeFiles/hello.dir/main.cpp.obj: D:\g\learn\test\main.cpp \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qlocale.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qvariant.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qguiapplication_platform.h \
+ D:/softwares/msys64/mingw64/include/c++/14.2.0/iostream \
+ D:/softwares/msys64/mingw64/include/c++/14.2.0/ostream \
+ D:/softwares/msys64/mingw64/include/c++/14.2.0/ios \
+ D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/basic_ios.h \
+ D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/locale_facets.h \
+ D:/softwares/msys64/mingw64/include/c++/14.2.0/cwctype \
+ D:/softwares/msys64/mingw64/include/wctype.h \
+ D:/softwares/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
+ D:/softwares/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
+ D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/locale_facets.tcc \
+ D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/basic_ios.tcc \
+ D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/ostream.tcc \
+ D:/softwares/msys64/mingw64/include/c++/14.2.0/istream \
+ D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/istream.tcc \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtConcurrent/QtConcurrent \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtConcurrent/QtConcurrentDepends \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QtCore \
@@ -476,12 +490,6 @@ CMakeFiles/hello.dir/main.cpp.obj: D:\g\learn\test\main.cpp \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/fs_fwd.h \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/fs_path.h \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/locale \
- D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/locale_facets.h \
- D:/softwares/msys64/mingw64/include/c++/14.2.0/cwctype \
- D:/softwares/msys64/mingw64/include/wctype.h \
- D:/softwares/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
- D:/softwares/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
- D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/locale_facets.tcc \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/locale_facets_nonio.h \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/time_members.h \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/messages_members.h \
@@ -491,13 +499,6 @@ CMakeFiles/hello.dir/main.cpp.obj: D:\g\learn\test\main.cpp \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/iomanip \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/quoted_string.h \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/sstream \
- D:/softwares/msys64/mingw64/include/c++/14.2.0/istream \
- D:/softwares/msys64/mingw64/include/c++/14.2.0/ios \
- D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/basic_ios.h \
- D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/basic_ios.tcc \
- D:/softwares/msys64/mingw64/include/c++/14.2.0/ostream \
- D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/ostream.tcc \
- D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/istream.tcc \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/sstream.tcc \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/codecvt \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/fs_dir.h \
@@ -872,4 +873,34 @@ CMakeFiles/hello.dir/main.cpp.obj: D:\g\learn\test\main.cpp \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpicture.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qtextdocument.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QTimer \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QRandomGenerator
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QThread \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QRandomGenerator \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QGuiApplication \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qguiapplication.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/QQmlApplicationEngine \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qqmlapplicationengine.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qqmlengine.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qjsengine.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qjsvalue.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qtqmlglobal.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qtqml-config.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtNetwork/qtnetwork-config.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtNetwork/qtnetworkexports.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qtqmlexports.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qjsmanagedvalue.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qjsprimitivevalue.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qjsnumbercoercion.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qqmldebug.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qqml.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qqmlprivate.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qqmllist.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qqmlparserstatus.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qqmlpropertyvaluesource.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qmetaobject.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qqmlregistration.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQmlIntegration/qqmlintegration.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qqmlerror.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qqmlabstracturlinterceptor.h \
+ D:/g/learn/test/build/hello_autogen/include/main.moc \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qtmochelpers.h

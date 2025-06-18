@@ -1,0 +1,11 @@
+D:/g/learn/qt/qtconcurrent/imagescaling/build/CMakeFiles/imagescaling.dir
+D:/g/learn/qt/qtconcurrent/imagescaling/build/CMakeFiles/package.dir
+D:/g/learn/qt/qtconcurrent/imagescaling/build/CMakeFiles/package_source.dir
+D:/g/learn/qt/qtconcurrent/imagescaling/build/CMakeFiles/edit_cache.dir
+D:/g/learn/qt/qtconcurrent/imagescaling/build/CMakeFiles/rebuild_cache.dir
+D:/g/learn/qt/qtconcurrent/imagescaling/build/CMakeFiles/list_install_components.dir
+D:/g/learn/qt/qtconcurrent/imagescaling/build/CMakeFiles/install.dir
+D:/g/learn/qt/qtconcurrent/imagescaling/build/CMakeFiles/install/local.dir
+D:/g/learn/qt/qtconcurrent/imagescaling/build/CMakeFiles/install/strip.dir
+D:/g/learn/qt/qtconcurrent/imagescaling/build/CMakeFiles/imagescaling_autogen_timestamp_deps.dir
+D:/g/learn/qt/qtconcurrent/imagescaling/build/CMakeFiles/imagescaling_autogen.dir

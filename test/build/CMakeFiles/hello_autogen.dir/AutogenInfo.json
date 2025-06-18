@@ -1172,7 +1172,8 @@
 		"D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake",
 		"D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake",
 		"D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
-		"D:/g/learn/test/build/.qt/qml_imports/hello_conf.cmake"
+		"D:/g/learn/test/build/.qt/qml_imports/hello_conf.cmake",
+		"D:/g/learn/test/qml.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "D:/g/learn/test",
 	"CROSS_CONFIG" : false,
@@ -1227,9 +1228,9 @@
 		"D:/qt6.8.2/6.8.2/mingw_64/include/QtQmlModels",
 		"D:/qt6.8.2/6.8.2/mingw_64/include/QtQmlWorkerScript",
 		"D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL",
-		"D:/qt6.8.2/6.8.2/mingw_64/include/QtQuickControls2",
 		"D:/qt6.8.2/6.8.2/mingw_64/include/QtConcurrent",
 		"D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets",
+		"D:/qt6.8.2/6.8.2/mingw_64/include/QtQuickControls2",
 		"D:/softwares/msys64/mingw64/include/c++/14.2.0",
 		"D:/softwares/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32",
 		"D:/softwares/msys64/mingw64/include/c++/14.2.0/backward",

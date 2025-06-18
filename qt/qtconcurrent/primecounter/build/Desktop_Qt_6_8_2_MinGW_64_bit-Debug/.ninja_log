@@ -1,0 +1,7 @@
+# ninja log v6
+13	1090	7719206946453110	primecounter_autogen/timestamp	9413d645a1516b02
+13	1090	7719206946453110	primecounter_autogen/mocs_compilation.cpp	9413d645a1516b02
+13	1090	7719206946453110	D:/g/learn/qt/qtconcurrent/primecounter/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/primecounter_autogen/timestamp	9413d645a1516b02
+13	1090	7719206946453110	D:/g/learn/qt/qtconcurrent/primecounter/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/primecounter_autogen/mocs_compilation.cpp	9413d645a1516b02
+1097	4417	7719206947792784	CMakeFiles/primecounter.dir/primecounter_autogen/mocs_compilation.cpp.obj	945422fa4c08340e
+1110	6292	7719206947912823	CMakeFiles/primecounter.dir/primecounter.cpp.obj	62a79ca1cb4d85cd

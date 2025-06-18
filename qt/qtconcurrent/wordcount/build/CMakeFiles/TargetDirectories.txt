@@ -1,0 +1,9 @@
+D:/g/learn/qt/qtconcurrent/wordcount/build/CMakeFiles/wordcount.dir
+D:/g/learn/qt/qtconcurrent/wordcount/build/CMakeFiles/edit_cache.dir
+D:/g/learn/qt/qtconcurrent/wordcount/build/CMakeFiles/rebuild_cache.dir
+D:/g/learn/qt/qtconcurrent/wordcount/build/CMakeFiles/list_install_components.dir
+D:/g/learn/qt/qtconcurrent/wordcount/build/CMakeFiles/install.dir
+D:/g/learn/qt/qtconcurrent/wordcount/build/CMakeFiles/install/local.dir
+D:/g/learn/qt/qtconcurrent/wordcount/build/CMakeFiles/install/strip.dir
+D:/g/learn/qt/qtconcurrent/wordcount/build/CMakeFiles/wordcount_autogen_timestamp_deps.dir
+D:/g/learn/qt/qtconcurrent/wordcount/build/CMakeFiles/wordcount_autogen.dir

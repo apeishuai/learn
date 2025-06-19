@@ -1,9 +1,8 @@
 CMakeFiles/hello.dir/main.cpp.obj: D:\g\learn\test\main.cpp \
- D:\g\learn\test\mainwindow.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QObject \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qobject.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qobjectdefs.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qnamespace.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/QMainWindow \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qmainwindow.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qtguiglobal.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qglobal.h \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/type_traits \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -143,6 +142,14 @@ CMakeFiles/hello.dir/main.cpp.obj: D:\g\learn\test\main.cpp \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qtresource.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qttranslation.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qversiontagging.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qtgui-config.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qtguiexports.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qwidget.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qwindowdefs.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qobjectdefs.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qnamespace.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qcompare.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qcomparehelpers.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/q20type_traits.h \
@@ -218,6 +225,8 @@ CMakeFiles/hello.dir/main.cpp.obj: D:\g\learn\test\main.cpp \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/backward/auto_ptr.h \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/pstl/glue_memory_defs.h \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/pstl/execution_defs.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qwindowdefs_win.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qobject.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qstring.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qchar.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qstringview.h \
@@ -320,18 +329,6 @@ CMakeFiles/hello.dir/main.cpp.obj: D:\g\learn\test\main.cpp \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/chrono.h \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/ratio \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/ctime \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/QMainWindow \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qmainwindow.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qtguiglobal.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qtgui-config.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qtguiexports.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qwidget.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qwindowdefs.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qwindowdefs_win.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qobject.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qmargins.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/q23utility.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qaction.h \
@@ -377,8 +374,6 @@ CMakeFiles/hello.dir/main.cpp.obj: D:\g\learn\test\main.cpp \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qcursor.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qbitmap.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qtabwidget.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/QWidget \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qwidget.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/QApplication \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qapplication.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qcoreapplication.h \
@@ -391,4 +386,98 @@ CMakeFiles/hello.dir/main.cpp.obj: D:\g\learn\test\main.cpp \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qguiapplication.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qinputmethod.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qlocale.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qguiapplication_platform.h
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qguiapplication_platform.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCharts/QChart \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCharts/qchart.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCharts/QAbstractSeries \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCharts/qabstractseries.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCharts/QChartGlobal \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCharts/qchartglobal.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCharts/qtcharts-config.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCharts/qtchartsexports.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCharts/QAbstractAxis \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCharts/qabstractaxis.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QPen \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpen.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QFont \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qfont.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QVariant \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qvariant.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QObject \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qobject.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCharts/QLegend \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCharts/qlegend.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/QGraphicsWidget \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qgraphicswidget.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qgraphicslayoutitem.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qevent.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qiodevice.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qurl.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qeventpoint.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qvector2d.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qvectornd.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpointingdevice.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qinputdevice.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qscreen.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QList \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qlist.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QRect \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qrect.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QSize \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qsize.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QSizeF \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QTransform \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qtransform.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qscreen_platform.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qgraphicsitem.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpainterpath.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QBrush \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qbrush.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QMargins \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qmargins.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCharts/QChartView \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCharts/qchartview.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCharts/QChart \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/QGraphicsView \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qgraphicsview.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpainter.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qtextoption.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpen.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qscrollarea.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qframe.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qgraphicsscene.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCharts/QLineSeries \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCharts/qlineseries.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCharts/QXYSeries \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCharts/qxyseries.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QImage \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qimage.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCharts/QValueAxis \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCharts/qvalueaxis.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/QVBoxLayout \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qboxlayout.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qlayout.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qlayoutitem.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qboxlayout.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qgridlayout.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/QLabel \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qlabel.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpicture.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qtextdocument.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QPen \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QColor \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qcolor.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QRandomGenerator \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qrandom.h \
+ D:/softwares/msys64/mingw64/include/c++/14.2.0/random \
+ D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/random.h \
+ D:/softwares/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/opt_random.h \
+ D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/random.tcc \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QElapsedTimer \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qelapsedtimer.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QTimer \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qtimer.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qbasictimer.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/QGraphicsScene \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtWidgets/qgraphicsscene.h

@@ -1179,7 +1179,15 @@
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "D:/g/learn/test/build/hello_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "hello_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"D:/g/learn/test/mainwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "D:/g/learn/test/build/hello_autogen/include",
 	"MOC_COMPILATION_FILE" : "D:/g/learn/test/build/hello_autogen/mocs_compilation.cpp",
@@ -1269,7 +1277,8 @@
 	"SETTINGS_FILE" : "D:/g/learn/test/build/CMakeFiles/hello_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "D:/g/learn/test/main.cpp", "MU", null ]
+		[ "D:/g/learn/test/main.cpp", "MU", null ],
+		[ "D:/g/learn/test/mainwindow.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

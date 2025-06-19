@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj.d"
   "CMakeFiles/hello.dir/main.cpp.obj"
   "CMakeFiles/hello.dir/main.cpp.obj.d"
+  "CMakeFiles/hello.dir/mainwindow.cpp.obj"
+  "CMakeFiles/hello.dir/mainwindow.cpp.obj.d"
   "CMakeFiles/hello_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/hello_autogen.dir/ParseCache.txt"
   "hello_autogen"

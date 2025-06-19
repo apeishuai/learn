@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/g/learn/test/build/hello_autogen/EWIEGA46WW/qrc_qml.cpp" "CMakeFiles/hello.dir/hello_autogen/EWIEGA46WW/qrc_qml.cpp.obj" "gcc" "CMakeFiles/hello.dir/hello_autogen/EWIEGA46WW/qrc_qml.cpp.obj.d"
   "D:/g/learn/test/build/hello_autogen/mocs_compilation.cpp" "CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj.d"
   "D:/g/learn/test/main.cpp" "CMakeFiles/hello.dir/main.cpp.obj" "gcc" "CMakeFiles/hello.dir/main.cpp.obj.d"
+  "D:/g/learn/test/mainwindow.cpp" "CMakeFiles/hello.dir/mainwindow.cpp.obj" "gcc" "CMakeFiles/hello.dir/mainwindow.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

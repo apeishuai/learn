@@ -239,53 +239,29 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-mainwindow.obj: mainwindow.cpp.obj
-.PHONY : mainwindow.obj
+painteditem.obj: painteditem.cpp.obj
+.PHONY : painteditem.obj
 
 # target to build an object file
-mainwindow.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/mainwindow.cpp.obj
-.PHONY : mainwindow.cpp.obj
+painteditem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/painteditem.cpp.obj
+.PHONY : painteditem.cpp.obj
 
-mainwindow.i: mainwindow.cpp.i
-.PHONY : mainwindow.i
-
-# target to preprocess a source file
-mainwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/mainwindow.cpp.i
-.PHONY : mainwindow.cpp.i
-
-mainwindow.s: mainwindow.cpp.s
-.PHONY : mainwindow.s
-
-# target to generate assembly for a file
-mainwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/mainwindow.cpp.s
-.PHONY : mainwindow.cpp.s
-
-qcustomplot.obj: qcustomplot.cpp.obj
-.PHONY : qcustomplot.obj
-
-# target to build an object file
-qcustomplot.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/qcustomplot.cpp.obj
-.PHONY : qcustomplot.cpp.obj
-
-qcustomplot.i: qcustomplot.cpp.i
-.PHONY : qcustomplot.i
+painteditem.i: painteditem.cpp.i
+.PHONY : painteditem.i
 
 # target to preprocess a source file
-qcustomplot.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/qcustomplot.cpp.i
-.PHONY : qcustomplot.cpp.i
+painteditem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/painteditem.cpp.i
+.PHONY : painteditem.cpp.i
 
-qcustomplot.s: qcustomplot.cpp.s
-.PHONY : qcustomplot.s
+painteditem.s: painteditem.cpp.s
+.PHONY : painteditem.s
 
 # target to generate assembly for a file
-qcustomplot.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/qcustomplot.cpp.s
-.PHONY : qcustomplot.cpp.s
+painteditem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/painteditem.cpp.s
+.PHONY : painteditem.cpp.s
 
 # Help Target
 help:
@@ -308,12 +284,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... mainwindow.obj
-	@echo ... mainwindow.i
-	@echo ... mainwindow.s
-	@echo ... qcustomplot.obj
-	@echo ... qcustomplot.i
-	@echo ... qcustomplot.s
+	@echo ... painteditem.obj
+	@echo ... painteditem.i
+	@echo ... painteditem.s
 .PHONY : help
 
 

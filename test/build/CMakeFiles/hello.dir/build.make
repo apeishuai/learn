@@ -72,7 +72,7 @@ hello_autogen/timestamp: D:/qt6.8.2/6.8.2/mingw_64/bin/moc.exe
 hello_autogen/timestamp: D:/qt6.8.2/6.8.2/mingw_64/bin/uic.exe
 hello_autogen/timestamp: CMakeFiles/hello.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\g\learn\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target hello"
-	D:\qt6.8.2\Tools\CMake_64\bin\cmake.exe -E cmake_autogen D:/g/learn/test/build/CMakeFiles/hello_autogen.dir/AutogenInfo.json ""
+	D:\qt6.8.2\Tools\CMake_64\bin\cmake.exe -E cmake_autogen D:/g/learn/test/build/CMakeFiles/hello_autogen.dir/AutogenInfo.json Debug
 	D:\qt6.8.2\Tools\CMake_64\bin\cmake.exe -E touch D:/g/learn/test/build/hello_autogen/timestamp
 
 hello_autogen/EWIEGA46WW/qrc_qml.cpp: D:/g/learn/test/qml.qrc
@@ -81,7 +81,7 @@ hello_autogen/EWIEGA46WW/qrc_qml.cpp: D:/g/learn/test/main.qml
 hello_autogen/EWIEGA46WW/qrc_qml.cpp: D:/qt6.8.2/6.8.2/mingw_64/bin/rcc.exe
 hello_autogen/EWIEGA46WW/qrc_qml.cpp: D:/qt6.8.2/6.8.2/mingw_64/bin/rcc.exe
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\g\learn\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for qml.qrc"
-	D:\qt6.8.2\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc D:/g/learn/test/build/CMakeFiles/hello_autogen.dir/AutoRcc_qml_EWIEGA46WW_Info.json 
+	D:\qt6.8.2\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc D:/g/learn/test/build/CMakeFiles/hello_autogen.dir/AutoRcc_qml_EWIEGA46WW_Info.json Debug
 
 CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj: CMakeFiles/hello.dir/flags.make
 CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj: CMakeFiles/hello.dir/includes_CXX.rsp

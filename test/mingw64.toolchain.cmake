@@ -4,7 +4,6 @@
 set(CMAKE_SYSTEM_NAME Windows)
 set(CMAKE_SYSTEM_PROCESSOR x86_64)
 
-
 # tool chain
 set(MINGW_ROOT "D:/softwares/msys64/mingw64")
 set(CMAKE_FIND_ROOT_PATH "${MINGW_ROOT}")
@@ -20,8 +19,17 @@ set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
 set(CMAKE_FIND_ROOT_PATH_MODE_PACKAGE NEVER)  
 
 
-set(CMAKE_C_FLAGS "-march=x86-64 -mtune=generic")
-set(CMAKE_CXX_FLAGS "${CMAKE_C_FLAGS} -std=c++17")
+set(CMAKE_C_FLAGS_DEBUG "-march=x86-64 -mtune=generic")
+set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -std=c++17")
+
+# add info debug
+set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -ggdb3 -gcodeview -O0")
+set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -ggdb3 -gcodeview -O0")
+    
+
+if(NOT CMAKE_BUILD_TYPE)
+    set(CMAKE_BUILD_TYPE Debug)
+endif()
 
 
 # message
@@ -30,3 +38,11 @@ message(STATUS "  - C Compiler: ${CMAKE_C_COMPILER}")
 message(STATUS "  - C++ Compiler: ${CMAKE_CXX_COMPILER}")
 message(STATUS "  - Make Program: ${CMAKE_MAKE_PROGRAM}")
 message(STATUS "  - Root Path: ${CMAKE_FIND_ROOT_PATH}")
+message(STATUS "  - cmake cxx compiler id: ${CMAKE_CXX_COMPILER_ID}")
+
+# CMAKE_C_COMPILER
+# CMAKE_C_CIMPILER_ABI
+# CMAKE_C_COMPILER_ID  //identify string
+# CMAKE_C_COMPILER_LINKER
+
+

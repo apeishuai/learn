@@ -71,7 +71,7 @@ hello_autogen/timestamp: D:/qt6.8.2/6.8.2/mingw_64/bin/moc.exe
 hello_autogen/timestamp: D:/qt6.8.2/6.8.2/mingw_64/bin/uic.exe
 hello_autogen/timestamp: CMakeFiles/hello_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\g\learn\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target hello"
-	D:\qt6.8.2\Tools\CMake_64\bin\cmake.exe -E cmake_autogen D:/g/learn/test/build/CMakeFiles/hello_autogen.dir/AutogenInfo.json ""
+	D:\qt6.8.2\Tools\CMake_64\bin\cmake.exe -E cmake_autogen D:/g/learn/test/build/CMakeFiles/hello_autogen.dir/AutogenInfo.json Debug
 	D:\qt6.8.2\Tools\CMake_64\bin\cmake.exe -E touch D:/g/learn/test/build/hello_autogen/timestamp
 
 hello_autogen: CMakeFiles/hello_autogen

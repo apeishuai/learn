@@ -104,6 +104,7 @@
 		"D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in",
 		"D:/g/learn/opengl/build/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake",
 		"D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
+		"D:/g/learn/opengl/root_directory.h.in",
 		"D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
@@ -1207,9 +1208,21 @@
 	"HEADERS" : 
 	[
 		[
+			"D:/g/learn/opengl/filesystem.h",
+			"MU",
+			"EWIEGA46WW/moc_filesystem.cpp",
+			null
+		],
+		[
 			"D:/g/learn/opengl/shader_s.h",
 			"MU",
 			"EWIEGA46WW/moc_shader_s.cpp",
+			null
+		],
+		[
+			"D:/g/learn/opengl/stb_image.h",
+			"MU",
+			"EWIEGA46WW/moc_stb_image.cpp",
 			null
 		]
 	],
@@ -1249,6 +1262,9 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"D:/g/learn/opengl/filesystem.h",
+		"D:/g/learn/opengl/stb_image.h",
+		"D:/g/learn/opengl/shader_s.h",
 		"D:/qt6.8.2/6.8.2/mingw_64/include/QtCore",
 		"D:/qt6.8.2/6.8.2/mingw_64/include",
 		"D:/qt6.8.2/6.8.2/mingw_64/mkspecs/win32-g++",

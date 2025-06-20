@@ -167,6 +167,30 @@ hello_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_autogen.dir\build.make CMakeFiles/hello_autogen.dir/build
 .PHONY : hello_autogen/fast
 
+fboitem.obj: fboitem.cpp.obj
+.PHONY : fboitem.obj
+
+# target to build an object file
+fboitem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/fboitem.cpp.obj
+.PHONY : fboitem.cpp.obj
+
+fboitem.i: fboitem.cpp.i
+.PHONY : fboitem.i
+
+# target to preprocess a source file
+fboitem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/fboitem.cpp.i
+.PHONY : fboitem.cpp.i
+
+fboitem.s: fboitem.cpp.s
+.PHONY : fboitem.s
+
+# target to generate assembly for a file
+fboitem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/fboitem.cpp.s
+.PHONY : fboitem.cpp.s
+
 hello_autogen/EWIEGA46WW/qrc_qml.obj: hello_autogen/EWIEGA46WW/qrc_qml.cpp.obj
 .PHONY : hello_autogen/EWIEGA46WW/qrc_qml.obj
 
@@ -275,6 +299,9 @@ help:
 	@echo ... hello_autogen_timestamp_deps
 	@echo ... hello_qmlimportscan
 	@echo ... hello
+	@echo ... fboitem.obj
+	@echo ... fboitem.i
+	@echo ... fboitem.s
 	@echo ... hello_autogen/EWIEGA46WW/qrc_qml.obj
 	@echo ... hello_autogen/EWIEGA46WW/qrc_qml.i
 	@echo ... hello_autogen/EWIEGA46WW/qrc_qml.s

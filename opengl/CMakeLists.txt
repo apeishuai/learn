@@ -8,6 +8,11 @@ set(CMAKE_AUTOUIC ON)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+CONFIGURE_FILE(
+    "${PROJECT_SOURCE_DIR}/root_directory.h.in"
+    "${PROJECT_SOURCE_DIR}/root_directory.h"
+)
+
 
 find_package(Qt6 REQUIRED COMPONENTS Quick Core QuickControls2 Concurrent Widgets QuickControls2 Gui OpenGL)
 
@@ -17,14 +22,19 @@ find_package(glad CONFIG REQUIRED)
 qt_standard_project_setup(REQUIRES 6.5)
 
 set(PROJECT_SRC
-    shader_s.h
     main.cpp
 )
+set(PROJECT_INCLUDE
+    filesystem.h
+    stb_image.h
+    shader_s.h
+)
 
-#include_directories(${PROJECT_SRC})
+include_directories(${PROJECT_INCLUDE})
 
 qt_add_executable(gl
     ${PROJECT_SRC}
+    ${PROJECT_INCLUDE}
 )
 
 target_link_libraries(gl PRIVATE

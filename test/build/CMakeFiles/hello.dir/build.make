@@ -128,11 +128,26 @@ CMakeFiles/hello.dir/painteditem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hello.dir/painteditem.cpp.s"
 	D:\softwares\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\g\learn\test\painteditem.cpp -o CMakeFiles\hello.dir\painteditem.cpp.s
 
+CMakeFiles/hello.dir/fboitem.cpp.obj: CMakeFiles/hello.dir/flags.make
+CMakeFiles/hello.dir/fboitem.cpp.obj: CMakeFiles/hello.dir/includes_CXX.rsp
+CMakeFiles/hello.dir/fboitem.cpp.obj: D:/g/learn/test/fboitem.cpp
+CMakeFiles/hello.dir/fboitem.cpp.obj: CMakeFiles/hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\g\learn\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/hello.dir/fboitem.cpp.obj"
+	D:\softwares\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello.dir/fboitem.cpp.obj -MF CMakeFiles\hello.dir\fboitem.cpp.obj.d -o CMakeFiles\hello.dir\fboitem.cpp.obj -c D:\g\learn\test\fboitem.cpp
+
+CMakeFiles/hello.dir/fboitem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hello.dir/fboitem.cpp.i"
+	D:\softwares\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\g\learn\test\fboitem.cpp > CMakeFiles\hello.dir\fboitem.cpp.i
+
+CMakeFiles/hello.dir/fboitem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hello.dir/fboitem.cpp.s"
+	D:\softwares\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\g\learn\test\fboitem.cpp -o CMakeFiles\hello.dir\fboitem.cpp.s
+
 CMakeFiles/hello.dir/hello_autogen/EWIEGA46WW/qrc_qml.cpp.obj: CMakeFiles/hello.dir/flags.make
 CMakeFiles/hello.dir/hello_autogen/EWIEGA46WW/qrc_qml.cpp.obj: CMakeFiles/hello.dir/includes_CXX.rsp
 CMakeFiles/hello.dir/hello_autogen/EWIEGA46WW/qrc_qml.cpp.obj: hello_autogen/EWIEGA46WW/qrc_qml.cpp
 CMakeFiles/hello.dir/hello_autogen/EWIEGA46WW/qrc_qml.cpp.obj: CMakeFiles/hello.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\g\learn\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/hello.dir/hello_autogen/EWIEGA46WW/qrc_qml.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\g\learn\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/hello.dir/hello_autogen/EWIEGA46WW/qrc_qml.cpp.obj"
 	D:\softwares\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello.dir/hello_autogen/EWIEGA46WW/qrc_qml.cpp.obj -MF CMakeFiles\hello.dir\hello_autogen\EWIEGA46WW\qrc_qml.cpp.obj.d -o CMakeFiles\hello.dir\hello_autogen\EWIEGA46WW\qrc_qml.cpp.obj -c D:\g\learn\test\build\hello_autogen\EWIEGA46WW\qrc_qml.cpp
 
 CMakeFiles/hello.dir/hello_autogen/EWIEGA46WW/qrc_qml.cpp.i: cmake_force
@@ -148,6 +163,7 @@ hello_OBJECTS = \
 "CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/hello.dir/main.cpp.obj" \
 "CMakeFiles/hello.dir/painteditem.cpp.obj" \
+"CMakeFiles/hello.dir/fboitem.cpp.obj" \
 "CMakeFiles/hello.dir/hello_autogen/EWIEGA46WW/qrc_qml.cpp.obj"
 
 # External object files for target hello
@@ -156,15 +172,16 @@ hello_EXTERNAL_OBJECTS =
 hello.exe: CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj
 hello.exe: CMakeFiles/hello.dir/main.cpp.obj
 hello.exe: CMakeFiles/hello.dir/painteditem.cpp.obj
+hello.exe: CMakeFiles/hello.dir/fboitem.cpp.obj
 hello.exe: CMakeFiles/hello.dir/hello_autogen/EWIEGA46WW/qrc_qml.cpp.obj
 hello.exe: CMakeFiles/hello.dir/build.make
 hello.exe: D:/qt6.8.2/6.8.2/mingw_64/lib/libQt6Concurrent.a
 hello.exe: D:/qt6.8.2/6.8.2/mingw_64/lib/libQt6Widgets.a
 hello.exe: D:/qt6.8.2/6.8.2/mingw_64/lib/libQt6QuickControls2.a
 hello.exe: D:/qt6.8.2/6.8.2/mingw_64/lib/libQt6Quick.a
+hello.exe: D:/qt6.8.2/6.8.2/mingw_64/lib/libQt6OpenGL.a
 hello.exe: D:/qt6.8.2/6.8.2/mingw_64/lib/libQt6QmlMeta.a
 hello.exe: D:/qt6.8.2/6.8.2/mingw_64/lib/libQt6QmlWorkerScript.a
-hello.exe: D:/qt6.8.2/6.8.2/mingw_64/lib/libQt6OpenGL.a
 hello.exe: D:/qt6.8.2/6.8.2/mingw_64/lib/libQt6Gui.a
 hello.exe: D:/qt6.8.2/6.8.2/mingw_64/lib/libQt6QmlModels.a
 hello.exe: D:/qt6.8.2/6.8.2/mingw_64/lib/libQt6Qml.a
@@ -173,7 +190,7 @@ hello.exe: D:/qt6.8.2/6.8.2/mingw_64/lib/libQt6Core.a
 hello.exe: CMakeFiles/hello.dir/linkLibs.rsp
 hello.exe: CMakeFiles/hello.dir/objects1.rsp
 hello.exe: CMakeFiles/hello.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\g\learn\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable hello.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\g\learn\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable hello.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\hello.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

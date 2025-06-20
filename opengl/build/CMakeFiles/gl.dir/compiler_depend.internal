@@ -7,9 +7,12 @@ D:/g/learn/opengl/build/gl_autogen/timestamp
  D:/g/learn/opengl/build/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake
  D:/g/learn/opengl/build/CMakeFiles/3.29.3/CMakeRCCompiler.cmake
  D:/g/learn/opengl/build/CMakeFiles/3.29.3/CMakeSystem.cmake
+ D:/g/learn/opengl/filesystem.h
  D:/g/learn/opengl/main.cpp
  D:/g/learn/opengl/mingw64.toolchain.cmake
+ D:/g/learn/opengl/root_directory.h.in
  D:/g/learn/opengl/shader_s.h
+ D:/g/learn/opengl/stb_image.h
  D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6/FindWrapAtomic.cmake
  D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake
  D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake

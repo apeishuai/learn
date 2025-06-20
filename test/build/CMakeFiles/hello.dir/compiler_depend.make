@@ -7,6 +7,8 @@ hello_autogen/timestamp: D:/g/learn/test/CmakeLists.txt \
   CMakeFiles/3.29.3/CMakeRCCompiler.cmake \
   CMakeFiles/3.29.3/CMakeSystem.cmake \
   hello_autogen/moc_predefs.h \
+  D:/g/learn/test/fboitem.cpp \
+  D:/g/learn/test/fboitem.h \
   D:/g/learn/test/main.cpp \
   D:/g/learn/test/mingw64.toolchain.cmake \
   D:/g/learn/test/painteditem.cpp \
@@ -155,7 +157,9 @@ hello_autogen/timestamp: D:/g/learn/test/CmakeLists.txt \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qversiontagging.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qxptype_traits.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qyieldcpu.h \
+  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QOpenGLFunctions \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QPainter \
+  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QSurfaceFormat \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QTransform \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qaccessible.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qaccessible_base.h \
@@ -166,12 +170,19 @@ hello_autogen/timestamp: D:/g/learn/test/CmakeLists.txt \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qfont.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qfontinfo.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qfontmetrics.h \
+  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qgenericmatrix.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qguiapplication.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qguiapplication_platform.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qimage.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qinputdevice.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qinputmethod.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qkeysequence.h \
+  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qmatrix4x4.h \
+  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qopengl.h \
+  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qopenglcontext.h \
+  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qopenglcontext_platform.h \
+  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qopenglext.h \
+  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qopenglfunctions.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpaintdevice.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpainter.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpen.h \
@@ -179,23 +190,31 @@ hello_autogen/timestamp: D:/g/learn/test/CmakeLists.txt \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpixmap.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpointingdevice.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpolygon.h \
+  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qquaternion.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qregion.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qrgb.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qrgba64.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qscreen.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qscreen_platform.h \
+  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qsurfaceformat.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qtextoption.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qtgui-config.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qtguiexports.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qtguiglobal.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qtransform.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qvector2d.h \
+  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qvector3d.h \
+  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qvector4d.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qvectornd.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qwindowdefs.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qwindowdefs_win.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtNetwork/qtnetwork-config.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtNetwork/qtnetworkexports.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+  D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL/QOpenGLShaderProgram \
+  D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL/qopenglshaderprogram.h \
+  D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL/qtopenglexports.h \
+  D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL/qtopenglglobal.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qjsnumbercoercion.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qjsprimitivevalue.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qjsvalue.h \
@@ -211,7 +230,10 @@ hello_autogen/timestamp: D:/g/learn/test/CmakeLists.txt \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qtqmlexports.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qtqmlglobal.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtQmlIntegration/qqmlintegration.h \
+  D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/QQuickFramebufferObject \
+  D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/QQuickItem \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/QQuickPaintedItem \
+  D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/qquickframebufferobject.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/qquickitem.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/qquickpainteditem.h \
   D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/qtquick-config.h \
@@ -1062,6 +1084,7 @@ hello_autogen/timestamp: D:/g/learn/test/CmakeLists.txt \
   D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake \
   D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows.cmake \
   D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake \
+  D:/softwares/msys64/mingw64/include/GL/gl.h \
   D:/softwares/msys64/mingw64/include/_mingw.h \
   D:/softwares/msys64/mingw64/include/_mingw_mac.h \
   D:/softwares/msys64/mingw64/include/_mingw_off_t.h \
@@ -1308,9 +1331,29 @@ CMakeFiles/3.29.3/CMakeCXXCompiler.cmake:
 
 D:/g/learn/test/CmakeLists.txt:
 
-D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qcompare.h:
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake:
 
-D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake:
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquick3dphysicspluginAdditionalTargetInfo.cmake:
+
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6QmlTools/Qt6QmlToolsConfig.cmake:
+
+D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qbasicatomic.h:
+
+D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qnamespace.h:
+
+D:/g/learn/test/painteditem.cpp:
+
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlshapespluginConfig.cmake:
+
+D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qvector2d.h:
+
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6QmlTools/Qt6QmlToolsTargets.cmake:
+
+D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qtconfigmacros.h:
+
+D:/g/learn/test/fboitem.cpp:
+
+D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qcompare.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtQmlIntegration/qqmlintegration.h:
 
@@ -1332,6 +1375,14 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbpluginspluginConfi
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6SensorsQuickpluginAdditionalTargetInfo.cmake:
 
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickTestpluginAdditionalTargetInfo.cmake:
+
+D:/g/learn/test/qml.qrc:
+
+D:/g/learn/test/painteditem.h:
+
+D:/g/learn/test/fboitem.h:
+
 D:/softwares/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6grpcquickpluginAdditionalTargetInfo.cmake:
@@ -1340,29 +1391,9 @@ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QList:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake:
 
+D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qopenglcontext_platform.h:
+
 D:/g/learn/test/mingw64.toolchain.cmake:
-
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake:
-
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquick3dphysicspluginAdditionalTargetInfo.cmake:
-
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6QmlTools/Qt6QmlToolsConfig.cmake:
-
-D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qbasicatomic.h:
-
-D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qnamespace.h:
-
-D:/g/learn/test/painteditem.cpp:
-
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlshapespluginConfig.cmake:
-
-D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qvector2d.h:
-
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickTestpluginAdditionalTargetInfo.cmake:
-
-D:/g/learn/test/qml.qrc:
-
-D:/g/learn/test/painteditem.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qconstructormacros.h:
 
@@ -1377,14 +1408,6 @@ D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qqmllist.h:
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QSize:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dhelpersimplpluginConfig.cmake:
-
-D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qfunctionaltools_impl.h:
-
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/Qt6QQmlProfilerServiceFactoryPluginConfig.cmake:
-
-D:/softwares/msys64/mingw64/include/c++/14.2.0/atomic:
-
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlfolderlistmodelpluginTargets-relwithdebinfo.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QSizeF:
 
@@ -1504,8 +1527,6 @@ D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qqmlparserstatus.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qassert.h:
 
-D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake:
-
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qatomic.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake:
@@ -1532,9 +1553,9 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qbytearrayalgorithms.h:
 
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlpluginAdditionalTargetInfo.cmake:
-
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qbytearraylist.h:
+
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlpluginAdditionalTargetInfo.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationConfigVersion.cmake:
 
@@ -1550,25 +1571,27 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imagine
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qcompare_impl.h:
 
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6protobufquickpluginTargets-relwithdebinfo.cmake:
-
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qcontainerfwd.h:
+
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6protobufquickpluginTargets-relwithdebinfo.cmake:
+
+D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/nested_exception.h:
+
+D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL/qtopenglglobal.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/QQuickPaintedItem:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qcontainerinfo.h:
 
-D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qfunctionpointer.h:
-
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginAdditionalTargetInfo.cmake:
 
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake:
+D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qcontainertools_impl.h:
 
 D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
 
-D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qcontainertools_impl.h:
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qimage.h:
 
@@ -1600,8 +1623,6 @@ D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/functional_hash.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6DataVisualizationQmlpluginAdditionalTargetInfo.cmake:
 
-D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake:
-
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qdeadlinetimer.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qendian.h:
@@ -1625,6 +1646,10 @@ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qmetaobject.h:
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogspluginAdditionalTargetInfo.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qforeach.h:
+
+D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qfunctionaltools_impl.h:
+
+D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qfunctionpointer.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qgenericatomic.h:
 
@@ -1696,10 +1721,6 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6Quick3DXrpluginTargets-
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditionalTargetInfo.cmake:
 
-D:/softwares/msys64/mingw64/include/c++/14.2.0/cstdlib:
-
-D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake:
-
 D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qqmlerror.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qmargins.h:
@@ -1709,6 +1730,8 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3deffectpluginAd
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3styleimplpluginAdditionalTargetInfo.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qvectornd.h:
+
+D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qquaternion.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:
 
@@ -1746,6 +1769,8 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dextraspluginTarg
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qobject_impl.h:
 
+D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL/qtopenglexports.h:
+
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qobjectdefs.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WebChannelQuickpluginTargets.cmake:
@@ -1782,9 +1807,11 @@ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qprocessordetection.h:
 
 D:/softwares/msys64/mingw64/include/c++/14.2.0/tr1/modified_bessel_func.tcc:
 
+D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake:
+
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qproperty.h:
 
-D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake:
+D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/QQuickFramebufferObject:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake:
 
@@ -1818,17 +1845,19 @@ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qscopeguard.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dhelperspluginConfig.cmake:
 
+D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QSurfaceFormat:
+
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qset.h:
+
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WebChannelQuickpluginAdditionalTargetInfo.cmake:
+
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationConfigVersionImpl.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6positioningquickpluginConfig.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbstylespluginTargets.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qshareddata.h:
-
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WebChannelQuickpluginAdditionalTargetInfo.cmake:
-
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationConfigVersionImpl.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qinputdevice.h:
 
@@ -1847,8 +1876,6 @@ D:/softwares/msys64/mingw64/include/c++/14.2.0/cstdint:
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6OpenGL/Qt6OpenGLConfigVersionImpl.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qsize.h:
-
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlpluginTargets-relwithdebinfo.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlAssetDownloaderpluginConfig.cmake:
 
@@ -1880,6 +1907,10 @@ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qstringlist.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlAssetDownloaderpluginTargets-relwithdebinfo.cmake:
 
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbtcimepluginAdditionalTargetInfo.cmake:
+
+D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qmatrix4x4.h:
+
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qstringmatcher.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qstringtokenizer.h:
@@ -1910,19 +1941,15 @@ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qtmetamacros.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qtaggedpointer.h:
 
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6positioningquickpluginTargets.cmake:
+
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qtclasshelpermacros.h:
 
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6positioningquickpluginTargets.cmake:
-
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qtconfiginclude.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Concurrent/Qt6ConcurrentVersionlessAliasTargets.cmake:
-
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6QmlTools/Qt6QmlToolsTargets.cmake:
-
-D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qtconfigmacros.h:
 
 D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/cxxabi_forced.h:
 
@@ -1936,13 +1963,13 @@ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qtdeprecationdefinitions.h:
 
 D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/cxxabi_init_exception.h:
 
+D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake:
+
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qtdeprecationmarkers.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick2pluginAdditionalTargetInfo.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:
-
-D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake:
 
@@ -1951,6 +1978,8 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbcomponentspluginAd
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersion.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qtenvironmentvariables.h:
+
+D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qopenglfunctions.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qtextstream.h:
 
@@ -1976,9 +2005,9 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickscene3dpluginAdd
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickmultimediaConfig.cmake:
 
-D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qttranslation.h:
-
 D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake:
+
+D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qttranslation.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3drenderpluginAdditionalTargetInfo.cmake:
 
@@ -2010,9 +2039,9 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets.c
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qutf8stringview.h:
 
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/Qt6QQuick3DProfilerAdapterFactoryPluginAdditionalTargetInfo.cmake:
-
 D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake:
+
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/Qt6QQuick3DProfilerAdapterFactoryPluginAdditionalTargetInfo.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Concurrent/Qt6ConcurrentConfigVersion.cmake:
 
@@ -2036,6 +2065,18 @@ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qyieldcpu.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6QmlWorkerScript/Qt6QmlWorkerScriptConfigVersion.cmake:
 
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/Qt6QQmlNativeDebugConnectorFactoryPluginTargets.cmake:
+
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6QmlWorkerScript/Qt6QmlWorkerScriptVersionlessAliasTargets.cmake:
+
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake:
+
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstylepluginTargets-relwithdebinfo.cmake:
+
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6/FindWrapAtomic.cmake:
+
+D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QOpenGLFunctions:
+
 D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QPainter:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QTransform:
@@ -2054,9 +2095,9 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6GraphspluginTargets.cma
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qevent.h:
 
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6positioningquickpluginAdditionalTargetInfo.cmake:
-
 D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qfont.h:
+
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6positioningquickpluginAdditionalTargetInfo.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2implpluginConfig.cmake:
 
@@ -2082,6 +2123,8 @@ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qfontmetrics.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qkeysequence.h:
 
+D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qgenericmatrix.h:
+
 D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qguiapplication.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbbuiltinstylespluginTargets-relwithdebinfo.cmake:
@@ -2102,6 +2145,14 @@ D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmak
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake:
 
+D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qopengl.h:
+
+D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qopenglcontext.h:
+
+D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:
+
+D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qopenglext.h:
+
 D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpaintdevice.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2AdditionalTargetInfo.cmake:
@@ -2117,6 +2168,8 @@ D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qtqml-config.h:
 D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpointingdevice.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginConfig.cmake:
+
+D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qsurfaceformat.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpolygon.h:
 
@@ -2166,6 +2219,12 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Targets-r
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qtransform.h:
 
+D:/softwares/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr-default.h:
+
+D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qvector3d.h:
+
+D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qvector4d.h:
+
 D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qwindowdefs.h:
@@ -2184,9 +2243,19 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6LabsPlatformpluginConfi
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtNetwork/qtnetworkglobal.h:
 
+D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL/QOpenGLShaderProgram:
+
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_locationTargets.cmake:
+
+D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL/qopenglshaderprogram.h:
+
 D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qjsvalue.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake:
+
+D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/stl_pair.h:
+
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Quick/Qt6QuickAdditionalTargetInfo.cmake:
 
 D:/softwares/msys64/mingw64/include/c++/14.2.0/ext/aligned_buffer.h:
 
@@ -2194,13 +2263,9 @@ D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/unique_ptr.h:
 
 D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/algorithmfwd.h:
 
-D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qqml.h:
-
 D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/GNU.cmake:
 
-D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/stl_pair.h:
-
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Quick/Qt6QuickAdditionalTargetInfo.cmake:
+D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qqml.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qqmlcomponent.h:
 
@@ -2209,6 +2274,12 @@ D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qqmlprivate.h:
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6QmlTools/Qt6QmlToolsTargets-relwithdebinfo.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qtqmlglobal.h:
+
+D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/QQuickItem:
+
+D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/qquickframebufferobject.h:
+
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6QmlAssetDownloader/Qt6QmlAssetDownloaderConfigVersion.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6OpenGL/Qt6OpenGLVersionlessAliasTargets.cmake:
 
@@ -2227,16 +2298,6 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.c
 D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/qtquickglobal.h:
 
 D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/CheckIncludeFileCXX.cmake:
-
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/Qt6QQmlNativeDebugConnectorFactoryPluginTargets.cmake:
-
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6QmlWorkerScript/Qt6QmlWorkerScriptVersionlessAliasTargets.cmake:
-
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake:
-
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstylepluginTargets-relwithdebinfo.cmake:
-
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6/FindWrapAtomic.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake:
 
@@ -2300,15 +2361,15 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake:
 
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateVersionlessAliasTargets.cmake:
-
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6particlespluginConfig.cmake:
-
 D:/softwares/msys64/mingw64/include/c++/14.2.0/tr1/exp_integral.tcc:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake:
+
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6particlespluginConfig.cmake:
+
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateVersionlessAliasTargets.cmake:
 
 D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/ostream_insert.h:
 
@@ -2346,11 +2407,11 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake:
 
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6protobufquickpluginConfig.cmake:
+
 D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/stl_iterator_base_types.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake:
-
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6protobufquickpluginConfig.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Concurrent/Qt6ConcurrentAdditionalTargetInfo.cmake:
 
@@ -2424,9 +2485,9 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateAdditionalTargetInfo.cmake:
 
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6ExamplesAssetDownloaderPrivate/Qt6ExamplesAssetDownloaderPrivateAdditionalTargetInfo.cmake:
-
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlpluginConfig.cmake:
+
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6ExamplesAssetDownloaderPrivate/Qt6ExamplesAssetDownloaderPrivateAdditionalTargetInfo.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6ExamplesAssetDownloaderPrivate/Qt6ExamplesAssetDownloaderPrivateConfig.cmake:
 
@@ -2512,8 +2573,6 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake:
 
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6particlespluginTargets-relwithdebinfo.cmake:
-
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake:
 
 D:/softwares/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h:
@@ -2521,10 +2580,6 @@ D:/softwares/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h:
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/Qt6QQmlNativeDebugServiceFactoryPluginConfig.cmake:
-
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlfolderlistmodelpluginTargets.cmake:
-
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dparticles3dpluginConfig.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake:
 
@@ -2618,9 +2673,9 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6grpcquickpluginTargets.
 
 D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:
 
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake:
-
 D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake:
+
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake:
 
 D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake:
 
@@ -2704,8 +2759,6 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WebChannelQuickpluginCo
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_locationAdditionalTargetInfo.cmake:
 
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_locationTargets.cmake:
-
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_remoteobjectsAdditionalTargetInfo.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstylepluginAdditionalTargetInfo.cmake:
@@ -2729,6 +2782,8 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6lottieqtpluginAdditiona
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6lottieqtpluginConfig.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6lottieqtpluginTargets.cmake:
+
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6particlespluginTargets-relwithdebinfo.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3stylepluginTargets-relwithdebinfo.cmake:
 
@@ -2762,6 +2817,16 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlfolderlistmodelplugi
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlfolderlistmodelpluginConfig.cmake:
 
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/Qt6QQmlProfilerServiceFactoryPluginConfig.cmake:
+
+D:/softwares/msys64/mingw64/include/c++/14.2.0/atomic:
+
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlfolderlistmodelpluginTargets-relwithdebinfo.cmake:
+
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlfolderlistmodelpluginTargets.cmake:
+
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dparticles3dpluginConfig.cmake:
+
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmllocalstoragepluginAdditionalTargetInfo.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmllocalstoragepluginConfig.cmake:
@@ -2769,6 +2834,8 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmllocalstoragepluginCo
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmllocalstoragepluginTargets-relwithdebinfo.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmllocalstoragepluginTargets.cmake:
+
+D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlpluginTargets-relwithdebinfo.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlsettingspluginConfig.cmake:
 
@@ -2883,6 +2950,8 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlcorepluginConfig.c
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlcorepluginTargets-relwithdebinfo.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dparticleeffectspluginConfig.cmake:
+
+D:/softwares/msys64/mingw64/include/GL/gl.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlstatemachineConfig.cmake:
 
@@ -3136,8 +3205,6 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTarge
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbstylespluginTargets-relwithdebinfo.cmake:
 
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbtcimepluginAdditionalTargetInfo.cmake:
-
 D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/atomic_lockfree_defines.h:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbtcimepluginConfig.cmake:
@@ -3211,10 +3278,6 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickwindowConfig.cmake
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6sharedimagepluginConfig.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6sharedimagepluginTargets-relwithdebinfo.cmake:
-
-D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/allocator.h:
-
-D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6workerscriptpluginAdditionalTargetInfo.cmake:
 
@@ -3328,8 +3391,6 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6QmlAssetDownloader/Qt6QmlAssetDownloaderA
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6QmlAssetDownloader/Qt6QmlAssetDownloaderConfig.cmake:
 
-D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6QmlAssetDownloader/Qt6QmlAssetDownloaderConfigVersion.cmake:
-
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6QmlAssetDownloader/Qt6QmlAssetDownloaderTargets-relwithdebinfo.cmake:
 
 D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake:
@@ -3424,8 +3485,6 @@ D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTarge
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake:
 
-D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
-
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake:
 
 D:/qt6.8.2/6.8.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake:
@@ -3454,8 +3513,6 @@ D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cm
 
 D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake:
 
-D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:
-
 D:/softwares/msys64/mingw64/include/ctype.h:
 
 D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:
@@ -3474,9 +3531,9 @@ D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/CMakeSystemSpecificInformatio
 
 D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake:
 
-D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake:
-
 D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake:
+
+D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake:
 
 D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake:
 
@@ -3484,9 +3541,17 @@ D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompil
 
 D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake:
 
+D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake:
+
 D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake:
 
+D:/softwares/msys64/mingw64/include/c++/14.2.0/cstdlib:
+
+D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake:
+
 D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake:
+
+D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake:
 
 D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake:
 
@@ -3494,13 +3559,21 @@ D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Embarcadero-Determin
 
 D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake:
 
+D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
+
 D:/softwares/msys64/mingw64/include/locale.h:
 
 D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake:
 
+D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake:
+
 D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake:
 
 D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake:
+
+D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/allocator.h:
+
+D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake:
 
 D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake:
 
@@ -3609,8 +3682,6 @@ D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/locale_classes.h:
 D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/locale_classes.tcc:
 
 D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/localefwd.h:
-
-D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/nested_exception.h:
 
 D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/new_allocator.h:
 
@@ -3767,8 +3838,6 @@ D:/softwares/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config
 D:/softwares/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++locale.h:
 
 D:/softwares/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/cpu_defines.h:
-
-D:/softwares/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr-default.h:
 
 D:/softwares/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr.h:
 

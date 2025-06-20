@@ -5,6 +5,8 @@ hello_autogen/timestamp: \
 	D:/g/learn/test/build/CMakeFiles/3.29.3/CMakeRCCompiler.cmake \
 	D:/g/learn/test/build/CMakeFiles/3.29.3/CMakeSystem.cmake \
 	D:/g/learn/test/build/hello_autogen/moc_predefs.h \
+	D:/g/learn/test/fboitem.cpp \
+	D:/g/learn/test/fboitem.h \
 	D:/g/learn/test/main.cpp \
 	D:/g/learn/test/mingw64.toolchain.cmake \
 	D:/g/learn/test/painteditem.cpp \
@@ -153,7 +155,9 @@ hello_autogen/timestamp: \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qversiontagging.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qxptype_traits.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qyieldcpu.h \
+	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QOpenGLFunctions \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QPainter \
+	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QSurfaceFormat \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QTransform \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qaccessible.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qaccessible_base.h \
@@ -164,12 +168,19 @@ hello_autogen/timestamp: \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qfont.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qfontinfo.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qfontmetrics.h \
+	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qgenericmatrix.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qguiapplication.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qguiapplication_platform.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qimage.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qinputdevice.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qinputmethod.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qkeysequence.h \
+	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qmatrix4x4.h \
+	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qopengl.h \
+	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qopenglcontext.h \
+	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qopenglcontext_platform.h \
+	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qopenglext.h \
+	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qopenglfunctions.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpaintdevice.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpainter.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpen.h \
@@ -177,23 +188,31 @@ hello_autogen/timestamp: \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpixmap.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpointingdevice.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpolygon.h \
+	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qquaternion.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qregion.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qrgb.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qrgba64.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qscreen.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qscreen_platform.h \
+	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qsurfaceformat.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qtextoption.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qtgui-config.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qtguiexports.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qtguiglobal.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qtransform.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qvector2d.h \
+	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qvector3d.h \
+	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qvector4d.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qvectornd.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qwindowdefs.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qwindowdefs_win.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtNetwork/qtnetwork-config.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtNetwork/qtnetworkexports.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+	D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL/QOpenGLShaderProgram \
+	D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL/qopenglshaderprogram.h \
+	D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL/qtopenglexports.h \
+	D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL/qtopenglglobal.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qjsnumbercoercion.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qjsprimitivevalue.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qjsvalue.h \
@@ -209,7 +228,10 @@ hello_autogen/timestamp: \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qtqmlexports.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qtqmlglobal.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtQmlIntegration/qqmlintegration.h \
+	D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/QQuickFramebufferObject \
+	D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/QQuickItem \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/QQuickPaintedItem \
+	D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/qquickframebufferobject.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/qquickitem.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/qquickpainteditem.h \
 	D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/qtquick-config.h \
@@ -1059,6 +1081,7 @@ hello_autogen/timestamp: \
 	D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake \
 	D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows.cmake \
 	D:/qt6.8.2/Tools/CMake_64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake \
+	D:/softwares/msys64/mingw64/include/GL/gl.h \
 	D:/softwares/msys64/mingw64/include/_mingw.h \
 	D:/softwares/msys64/mingw64/include/_mingw_mac.h \
 	D:/softwares/msys64/mingw64/include/_mingw_off_t.h \

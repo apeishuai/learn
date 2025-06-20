@@ -1,9 +1,10 @@
 CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj: \
  D:\g\learn\test\build\hello_autogen\mocs_compilation.cpp \
- D:\g\learn\test\build\hello_autogen\EWIEGA46WW/moc_painteditem.cpp \
- D:/g/learn/test/painteditem.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/QQuickPaintedItem \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/qquickpainteditem.h \
+ D:\g\learn\test\build\hello_autogen\EWIEGA46WW/moc_fboitem.cpp \
+ D:/g/learn/test/fboitem.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/QQuickFramebufferObject \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/qquickframebufferobject.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/QQuickItem \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/qquickitem.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/qtquickglobal.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qtqmlglobal.h \
@@ -423,6 +424,30 @@ CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj: \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qrgb.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qrgba64.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qaccessible_base.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QOpenGLFunctions \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qopenglfunctions.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qopengl.h \
+ D:/softwares/msys64/mingw64/include/GL/gl.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qopenglext.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qopenglcontext.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QSurfaceFormat \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qsurfaceformat.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qopenglcontext_platform.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL/QOpenGLShaderProgram \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL/qopenglshaderprogram.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL/qtopenglglobal.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL/qtopenglexports.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qvector3d.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qvector4d.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qmatrix4x4.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qquaternion.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qgenericmatrix.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qtmochelpers.h \
+ D:\g\learn\test\build\hello_autogen\EWIEGA46WW/moc_painteditem.cpp \
+ D:/g/learn/test/painteditem.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/QQuickPaintedItem \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/qquickpainteditem.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/qquickitem.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QPainter \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpainter.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpixmap.h \
@@ -434,5 +459,4 @@ CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj: \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpen.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qbrush.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qfontinfo.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qfontmetrics.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qtmochelpers.h
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qfontmetrics.h

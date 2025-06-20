@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "hello_autogen/timestamp" "custom" "hello_autogen/deps"
+  "D:/g/learn/test/fboitem.cpp" "CMakeFiles/hello.dir/fboitem.cpp.obj" "gcc" "CMakeFiles/hello.dir/fboitem.cpp.obj.d"
   "D:/g/learn/test/build/hello_autogen/EWIEGA46WW/qrc_qml.cpp" "CMakeFiles/hello.dir/hello_autogen/EWIEGA46WW/qrc_qml.cpp.obj" "gcc" "CMakeFiles/hello.dir/hello_autogen/EWIEGA46WW/qrc_qml.cpp.obj.d"
   "D:/g/learn/test/build/hello_autogen/mocs_compilation.cpp" "CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj.d"
   "D:/g/learn/test/main.cpp" "CMakeFiles/hello.dir/main.cpp.obj" "gcc" "CMakeFiles/hello.dir/main.cpp.obj.d"

@@ -1,0 +1,12 @@
+D:/g/learn/opengl/build/CMakeFiles/gl.dir
+D:/g/learn/opengl/build/CMakeFiles/gl_qmlimportscan.dir
+D:/g/learn/opengl/build/CMakeFiles/package.dir
+D:/g/learn/opengl/build/CMakeFiles/package_source.dir
+D:/g/learn/opengl/build/CMakeFiles/edit_cache.dir
+D:/g/learn/opengl/build/CMakeFiles/rebuild_cache.dir
+D:/g/learn/opengl/build/CMakeFiles/list_install_components.dir
+D:/g/learn/opengl/build/CMakeFiles/install.dir
+D:/g/learn/opengl/build/CMakeFiles/install/local.dir
+D:/g/learn/opengl/build/CMakeFiles/install/strip.dir
+D:/g/learn/opengl/build/CMakeFiles/gl_autogen_timestamp_deps.dir
+D:/g/learn/opengl/build/CMakeFiles/gl_autogen.dir

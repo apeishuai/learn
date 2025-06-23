@@ -1,7 +1,7 @@
 CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj: \
  D:\g\learn\test\build\hello_autogen\mocs_compilation.cpp \
- D:\g\learn\test\build\hello_autogen\EWIEGA46WW/moc_fboitem.cpp \
- D:/g/learn/test/fboitem.h \
+ D:\g\learn\test\build\hello_autogen\EWIEGA46WW/moc_fbo.cpp \
+ D:/g/learn/test/fbo.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/QQuickFramebufferObject \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/qquickframebufferobject.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/QQuickItem \
@@ -433,15 +433,13 @@ CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj: \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QSurfaceFormat \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qsurfaceformat.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qopenglcontext_platform.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL/QOpenGLShaderProgram \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL/qopenglshaderprogram.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL/QOpenGLFramebufferObject \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL/qopenglframebufferobject.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL/qtopenglglobal.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL/qtopenglexports.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qvector3d.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qvector4d.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qmatrix4x4.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qquaternion.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qgenericmatrix.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpaintdevice.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QDebug \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qdebug.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qtmochelpers.h \
  D:\g\learn\test\build\hello_autogen\EWIEGA46WW/moc_painteditem.cpp \
  D:/g/learn/test/painteditem.h \
@@ -451,7 +449,6 @@ CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj: \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QPainter \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpainter.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpixmap.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpaintdevice.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qimage.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpixelformat.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qtransform.h \

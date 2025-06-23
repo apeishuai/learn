@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/hello.dir/fboitem.cpp.obj"
-  "CMakeFiles/hello.dir/fboitem.cpp.obj.d"
   "CMakeFiles/hello.dir/hello_autogen/EWIEGA46WW/qrc_qml.cpp.obj"
   "CMakeFiles/hello.dir/hello_autogen/EWIEGA46WW/qrc_qml.cpp.obj.d"
   "CMakeFiles/hello.dir/hello_autogen/mocs_compilation.cpp.obj"

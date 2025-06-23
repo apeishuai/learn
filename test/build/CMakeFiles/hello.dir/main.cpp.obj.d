@@ -388,15 +388,10 @@ CMakeFiles/hello.dir/main.cpp.obj: D:\g\learn\test\main.cpp \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtQmlIntegration/qqmlintegration.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qqmlerror.h \
  D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qqmlabstracturlinterceptor.h \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QThread \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qthread.h \
- D:/softwares/msys64/mingw64/include/c++/14.2.0/future \
- D:/softwares/msys64/mingw64/include/c++/14.2.0/mutex \
- D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/std_mutex.h \
- D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/unique_lock.h \
- D:/softwares/msys64/mingw64/include/c++/14.2.0/condition_variable \
- D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/atomic_futex.h \
- D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/std_thread.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQuickControls2/QQuickStyle \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQuickControls2/qquickstyle.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQuickControls2/qtquickcontrols2global.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQuickControls2/qtquickcontrols2exports.h \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/iostream \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/ostream \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/ios \
@@ -411,5 +406,66 @@ CMakeFiles/hello.dir/main.cpp.obj: D:\g\learn\test\main.cpp \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/ostream.tcc \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/istream \
  D:/softwares/msys64/mingw64/include/c++/14.2.0/bits/istream.tcc \
- D:/g/learn/test/build/hello_autogen/include/main.moc \
- D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qtmochelpers.h
+ D:\g\learn\test\fbo.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/QQuickFramebufferObject \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/qquickframebufferobject.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/QQuickItem \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/qquickitem.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/qtquickglobal.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/qtquick-config.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQuick/qtquickexports.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtQml/qqmlcomponent.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QObject \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qobject.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QList \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qlist.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qproperty.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qpropertyprivate.h \
+ D:/softwares/msys64/mingw64/include/c++/14.2.0/experimental/source_location \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qevent.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qiodevice.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qeventpoint.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qvector2d.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qvectornd.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qrect.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpointingdevice.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qinputdevice.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qscreen.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QRect \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qrect.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QSize \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qsize.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QSizeF \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QTransform \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qtransform.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpolygon.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qregion.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qline.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qscreen_platform.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qkeysequence.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qfont.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qendian.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qaccessible.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qcolor.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qrgb.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qrgba64.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qaccessible_base.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QOpenGLFunctions \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qopenglfunctions.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qopengl.h \
+ D:/softwares/msys64/mingw64/include/GL/gl.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qopenglext.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qopenglcontext.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/QSurfaceFormat \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qsurfaceformat.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qopenglcontext_platform.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL/QOpenGLFramebufferObject \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL/qopenglframebufferobject.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL/qtopenglglobal.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtOpenGL/qtopenglexports.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtGui/qpaintdevice.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QDebug \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qdebug.h \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/QLoggingCategory \
+ D:/qt6.8.2/6.8.2/mingw_64/include/QtCore/qloggingcategory.h \
+ D:/g/learn/test/build/hello_autogen/include/main.moc
